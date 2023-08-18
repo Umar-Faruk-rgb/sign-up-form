@@ -90,3 +90,75 @@ body {
    /* flex-grow: 3; */
 }
 
+#intro, #account {
+    height: 35%;
+    background-color: whitesmoke;
+    padding-left: 50px;
+}
+
+#intro {
+    padding-top: 15%;
+}
+
+#form-box{
+    height: 30%;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+
+form{
+    display: flex;
+    gap: 60px;
+}
+
+form ul li{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    list-style: none;
+    font-size: 15px;
+}
+
+input{
+    padding-left: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    border: 1px rgb(223, 220, 220) solid;
+    border-radius: 2px;
+}
+
+#account > * {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    background: #045214;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#account a{
+    color: rgba(69, 79, 168, 0.856);
+    text-decoration: none;
+}
+
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+}
+
+#message{
+    color: red;
+    font-size: 12px;
+}
+
+.error {
+    border: 2px solid red;
+}

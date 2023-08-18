@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,12 +21,14 @@
         </div>
         <div id="content-box">
            <div id="intro">
-            <p>Welcome to ........</p>
-            <p>Come join us now!</p>
+            <h2>Welcome to StayFit gym and fitness center! It is scientifically proven that daily movement increases blood circulation and brain activity.
+                A sound mind can only live in a sound body. Sign Up here, and let's get started </h2>
+                <br>
+            <h2>Come join us now!</h2>
            </div>
            <div id="form-box">
-            <p>Lets do this!</p>
-            <form action="" method="post">
+            <h2>Lets do this!</h2>
+            <form action="" method="get" id="form1">
                 <ul>
                     <li>
                         <label for="first-name">FIRST NAME</label>
@@ -39,6 +41,7 @@
                     <li>
                         <label for="password">PASSWORD</label>
                         <input type="password" name="user-password" id="password">
+                        <span id="message"></span>
                     </li>
                 </ul>
                 <ul>
@@ -58,7 +61,7 @@
             </form>
            </div>
            <div id="account">
-            <button type="submit">Create Account</button>
+            <button type="submit" form="form1">Create Account</button>
             <p>Already have an account? <a href="">Log in</a></p>
            </div> 
         </div>
